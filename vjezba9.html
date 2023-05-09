@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>CSS pravila</title>
+    <style type="text/css">
+        ul {
+            font-weight: bold;
+        }
+
+        a {
+            font-weight: bold;
+            color: indianred;
+            text-transform: uppercase;
+            padding: 50px;
+        }
+
+        body {
+            background-color: gainsboro;
+            color: darkcyan;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 15px;
+        }
+
+        h2 {
+            font-family: monospace;
+            font-size: 25px;
+        }
+
+        h1 {
+            color: coral;
+            font-family: sans-serif;
+        }
+
+        div {
+            color: darkseagreen;
+            background-color: darkslategrey;
+            margin: 20px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="tealFont">
+        <a href="/o_nama.html">O nama</a>
+        <a href="/OWT.html">Osnove web tehnologija</a>
+        <a href="/UWT.html">Uvod u web tehnologije</a>
+    </nav>
+    <div>
+        <h1 id="whitesmokeFont">
+            Prikaz CSS pravila
+        </h1>
+    </div>
+    <div>
+        <ol id="lightgrayFont">
+            <li id="whitesmokeFont">
+                <h2 class="pinkFont">Pravilo nasljeđivanja</h2>
+            </li>
+            <li>
+                <h2 id="whitesmokeFont" class="pinkFont"> Pravilo preciznosti</h2>
+            </li>
+            <li id="whitesmokeFont">
+                <h2>Pravilo jednake preciznosti</h2>
+            </li>
+        </ol>
+    </div>
+    <div class="tealFont normalFontW" id="whitesmokeFont">
+        <p class="aquaFont">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        </p>
+    </div>
+    <div class="tealFont normalFontW">
+        <p class="aquaFont middleFontWeight">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        </p>
+    </div>
+
+    <div >
+        Nastavnici
+        <ul class="middleFontWeight">
+            <li class="normalFontW" id="whitesmokeFont">
+                prof.dr.sc Dragutin Kermek
+            </li>
+            <li class="normalFontW">
+                doc.dr.sc Matija Novak
+            </li>
+            <li>
+                Matija Kaniški, mag.inf
+            </li>
+            <li>
+                Iva Levak, mag.inf
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
